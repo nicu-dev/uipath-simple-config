@@ -10,7 +10,7 @@ UiPath excel config is a pain. This activity allows you to read/initiate a confi
 * Speed! Initiating config from excel file is unreasonably slow. Reading Config with this SimpleConfig is instantaneous.
 
 # How to install
-* Download the desired nupkg to a local folder (for Windows projects, it requires both runtime/design nupkg).
+* Download the desired nupkg to a local folder (for non-legacy projects, it requires both runtime/design nupkg).
 * Add local folder to the packages feed inside UiPath Manage Packages.
 * Drag and drop the SimpleConfig activity inside your project from Activities tab.
 
@@ -23,8 +23,8 @@ UiPath excel config is a pain. This activity allows you to read/initiate a confi
 * the key will be the Config("key"), you'll use in project to call the value object
 * there are 3 special cases you can use in your config:
   1) reading credentials from Windows Credential. Prefix your generic windows credential key with "c_". Example: "c_winCred = NameOfCredential", will unpack into following config keys: "winCred_user" and "winCred_pass"
-  2) reading assets from Orchetrator. Prefix your assets key with "a_". Example: "a_projectAssetName = NameOfAsset", will unpack into config key: "projectAssetName" with value of "NameOfAsset" from orchetrator
-  3) reading credential asset from Orchestrato. Prexis your assets with "ca_". Example: "ca_credFromOrch = OrchCreds", will unpack into config keys: "credFromOrch_user" and "credFromOrch_pass"
+  2) reading assets from Orchetrator. Prefix your assets key with "a_". Example: "a_projectAssetName = NameOfAsset", will unpack into config key: "projectAssetName" with value of "NameOfAsset" from orchestrator
+  3) reading credential asset from Orchestrator. Prefix your assets with "ca_". Example: "ca_credFromOrch = OrchCreds", will unpack into config keys: "credFromOrch_user" and "credFromOrch_pass"
 
 
 # Example of a usable config.txt file
