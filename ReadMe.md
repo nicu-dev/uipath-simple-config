@@ -10,9 +10,9 @@ UiPath excel config is a pain. This activity allows you to read/initiate a confi
 * Speed! Initiating config from excel file is unreasonably slow. Reading Config with this SimpleConfig is instantaneous.
 
 # How to install
-* Download the nupkg to a local folder.
-* Add folder to the packages feed inside UiPath.
-* Drag and drop the SimpleConfig activity inside your project.
+* Download the desired nupkg to a local folder (for Windows projects, it requires both runtime/design nupkg).
+* Add local folder to the packages feed inside UiPath Manage Packages.
+* Drag and drop the SimpleConfig activity inside your project from Activities tab.
 
 # How to use and couple specifications
 * create a .txt file where you'll keep your config text (you can have multiple files where you store various configs, e.g. emails.txt, localization.txt)
