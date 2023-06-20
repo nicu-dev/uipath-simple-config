@@ -25,3 +25,6 @@ UiPath excel config is a pain. This activity allows you to read/initiate a confi
   1) reading credentials from Windows Credential. Prefix your generic windows credential key with "c_". Example: "c_winCred = NameOfCredential", will unpack into following config keys: "winCred_user" and "winCred_pass"
   2) reading assets from Orchetrator. Prefix your assets key with "a_". Example: "a_projectAssetName = NameOfAsset", will unpack into config key: "projectAssetName" with value of "NameOfAsset" from orchetrator
   3) reading credential asset from Orchestrato. Prexis your assets with "ca_". Example: "ca_credFromOrch = OrchCreds", will unpack into config keys: "credFromOrch_user" and "credFromOrch_pass"
+
+* example of a usable config.txt file
+[![config-text-example](https://i.postimg.cc/vZHjxjfF/2023-06-20-19-16-18-E-Documents-config-txt-Notepad.png)](https://postimg.cc/xchgW66t)
