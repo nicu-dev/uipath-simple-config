@@ -1,6 +1,8 @@
 # SimpleConfig
 UiPath excel config is a pain. This activity allows you to read/initiate a config from a simple flat file (e.g. txt, cfg).
 
+![alt text]([http://url/to/img.png](https://imgur.com/Lar1IdE))
+
 # Problems with standard excel config
 * It doesn't allow you to keep it open at runtime. As a developer, you always put things in config file as you develop/test. UiPath always yells at you if you have the excel open.
 * It doesn't track git history. If you check git history of an excel file, all you see is crypted data. Flat files allow you to view changes easily.
