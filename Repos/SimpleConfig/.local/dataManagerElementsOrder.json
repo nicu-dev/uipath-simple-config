@@ -1,0 +1,35 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ReadConfigFile.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "asset&Sequence_1",
+        "value&Sequence_8",
+        "key&Sequence_8",
+        "configStream&Sequence_1",
+        "pass&Sequence_9",
+        "user&Sequence_9",
+        "asset&Sequence_10",
+        "asset&Sequence_11",
+        "user&Sequence_11",
+        "pass&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "OutputConfig",
+        "ConfigFilePath",
+        "OrchestratorFolderPath"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
