@@ -4,7 +4,7 @@ UiPath excel config is a pain. This activity allows you to read/initiate a confi
 [![image](https://i.postimg.cc/Wb0rkzSk/2023-06-15-14-43-12-Blank-Process1-Ui-Path-Studio-Community.png)](https://postimg.cc/Ln6ndHc9)
 
 # Problems with standard excel config
-* Speed! Initiating config from excel file is unreasonably slow. Reading Config with this SimpleConfig is instantaneous.
+* Speed! Initiating config from excel file is unreasonably slow. Reading Config with SimpleConfig is instantaneous.
 * It doesn't allow you to keep it open at runtime. As a developer, you always put things in config file as you develop/test. UiPath always yells at you if you have the excel open.
 * It doesn't allow to view git changes. If you check git "show changes" of an excel file, all you see is crypted data. Flat files allow you to view changes easily.
 * Classic alternative to excel config in UiPath world is json format. But json doesn't allow comments, and you need an extra dependency (UiPath.WebApi) to make it work
