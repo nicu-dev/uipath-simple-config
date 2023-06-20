@@ -15,7 +15,7 @@ UiPath excel config is a pain. This activity allows you to read/initiate a confi
 * Drag and drop the SimpleConfig activity inside your project from Activities tab.
 
 # How to use and couple specifications
-* create a .txt file where you'll keep your config text (you can have multiple files where you store various configs, e.g. emails.txt, localization.txt)
+* create a .txt file where you'll keep your config text (you can have multiple files where you store various configs, e.g. emails.txt, localization.txt), which you can read separately
 * output of the activity is a Dictionary<string,object>
 * "#" at the start of a line marks a comment line
 * blank lines are ignored
