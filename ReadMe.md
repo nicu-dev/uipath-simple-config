@@ -27,4 +27,4 @@ UiPath excel config is a pain. This activity allows you to read/initiate a confi
   3) reading credential asset from Orchestrato. Prexis your assets with "ca_". Example: "ca_credFromOrch = OrchCreds", will unpack into config keys: "credFromOrch_user" and "credFromOrch_pass"
 
 * example of a usable config.txt file
-[![config-text-example](https://i.postimg.cc/vZHjxjfF/2023-06-20-19-16-18-E-Documents-config-txt-Notepad.png)](https://postimg.cc/xchgW66t)
+[![2023-06-20-19-16-18-E-Documents-config-txt-Notepad.png](https://i.postimg.cc/vZHjxjfF/2023-06-20-19-16-18-E-Documents-config-txt-Notepad.png)](https://postimg.cc/xchgW66t)
