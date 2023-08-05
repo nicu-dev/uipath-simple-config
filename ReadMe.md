@@ -9,7 +9,7 @@ UiPath excel config is a pain. This simple activity allows you to read/initiate 
 * Speed! Initiating config from excel file is unreasonably slow. Reading Config with SimpleConfig is instantaneous.
 * It doesn't allow you to keep the excel open at runtime, during development. You always have it open and put things in config file, as you develop. UiPath yells at you and the run crashes, if you forget to close excel before runtime.
 * It doesn't allow to view git changes. If you check git "show changes" of an excel file, all you see is encrypted data. Flat files allow you to view changes easily.
-* Usual alternative to excel config in UiPath world, is the json format config. But json doesn't allow comments, and you need an extra dependency (UiPath.WebApi) to make it work. As well, json format doesn't allow easily to unpack assets or credentials
+* A typical alternative to excel config, is the JSON format config. But json doesn't allow comments, and you need an extra dependency (UiPath.WebApi) and extra steps to make it work. As well, json format doesn't allow easily to unpack assets or credentials from orchestrator
 * You have to carry needlessly a lot of config objects throught the project, even if you use it only in select cases. With new activity, you can easily read any config (e.g. emails.txt, localization.txt) exactly where you need it
 
 
