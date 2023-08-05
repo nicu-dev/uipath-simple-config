@@ -16,7 +16,7 @@ UiPath excel config is a pain. This simple activity allows you to read/initiate 
 # How to install
 * Download the desired nupkg to a local folder (for non-legacy projects, it requires both runtime/design nupkg).
 * Add local folder to the packages feed inside UiPath Manage Packages.
-* Drag and drop the SimpleConfig activity inside your project from Activities tab.
+* Drag and drop the "ReadConfigFile" activity inside your project from Activities tab.
 
 # How to use and couple specifications
 * create a .txt file where you'll keep your config text (you can have multiple files where you store various configs, e.g. emails.txt, localization.txt), which you can read separately
