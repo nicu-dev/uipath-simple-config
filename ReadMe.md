@@ -1,6 +1,8 @@
 # SimpleConfig
-UiPath excel config is a pain. This activity allows you to read/initiate a config dictionary from a simple flat file (e.g. txt, cfg).
-
+UiPath excel config is a pain. This simple activity allows you to read/initiate a config dictionary from a simple flat file (e.g. txt, cfg).
+  ## Input
+[![image.png](https://i.postimg.cc/T1p6WHM2/image.png)](https://postimg.cc/4HkMDPxj)
+  ## Output
 [![image](https://i.postimg.cc/Wb0rkzSk/2023-06-15-14-43-12-Blank-Process1-Ui-Path-Studio-Community.png)](https://postimg.cc/Ln6ndHc9)
 
 # Problems with standard excel config
